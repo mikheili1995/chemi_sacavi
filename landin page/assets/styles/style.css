@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:  #F4F4F4;
+}
+
+.container{
+    width: 400px;
+    height: 650px;
+    background: #FFFFFF;
+    margin-left: 470px;
+    margin-top: 50px;
+    border-radius: 8px;
+
+}
+.img{
+    width: 200px;
+    height: 200px;
+    padding-left: 70px;
+}
+.price{
+ padding-top: 70px;
+ padding-left: 25px;
+}
+.h3{
+    padding-top: 10px;
+    padding-left: 25px;
+}
+.p{
+    padding-top: 5px;
+    padding-left: 25px;
+}
+.h5{
+    padding-top: 35px;
+    padding-left: 25px; 
+    color: #666666;
+}
+.circle{
+    display: flex;
+    padding-top: 5px;
+    padding-left: 15px; 
+
+}
+.circle1{
+    width: 30px;
+    height: 30px;
+    background: #EE4444;
+    border: 3px solid #000000;
+    border-radius: 100%;
+    margin: 8px;
+}
+.circle2{
+    width: 30px;
+    height: 30px;
+    background: #3C81F6;
+    border: 3px solid #FFFFFF;
+    border-radius: 100%;
+    margin: 8px;
+}
+.circle3{
+    width: 30px;
+    height: 30px;
+    background: #000000;
+    border: 3px solid #FFFFFF;
+    border-radius: 100%;
+    margin: 8px;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.button1{
+    width: 350px;
+    height: 47px;
+    background: #FBBF23;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+.button2{
+    width: 350px;
+    height: 47px;
+    border: 1px solid #61A5FA;
+    border-radius: 8px;
+    margin-top: 30px;
+    margin-left: 1px;
+}
+.add h3{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    color: #333333;
+}
+.buy h3{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    color: #333333;
+}
+.u h5{
+    color: #61A5FA;
+    margin-top: 20px;
+}
